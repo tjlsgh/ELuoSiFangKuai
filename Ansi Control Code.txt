@@ -1,0 +1,12 @@
+ESC \033
+
+ESC[2J                      erase entire screen
+ESC[{line};{column}H        moves cursor to line column
+ESC[0m                      reset all modes(styles and colors)
+ESC[1;34;{...}m             set graphics modes for all cell, separated by semicolon(;)
+ESC[38;5;{ID}m              set foreground color
+ESC[48;5;{ID}m              set background color
+ESC[38;2;{r};{g};{b}m       set forground color as RGB
+ESC[48;2;{r};{g};{b}m       set background color as RGB
+ESC[?25l                    hide cursor
+ESC[?25h                    show cursor
