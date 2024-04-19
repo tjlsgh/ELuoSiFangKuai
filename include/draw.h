@@ -1,3 +1,5 @@
+#pragma once
+
 #define ESC "\033["
 namespace elsfk {
 void moveCursor(int row, int column);
