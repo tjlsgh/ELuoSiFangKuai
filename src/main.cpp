@@ -12,7 +12,11 @@ using namespace std::chrono_literals;
 void init() {
   elsfk::hideCursor();
   elsfk::clear();
-  wd::render(10, 10, 4, 4, "helloworld");
+  wd::render(9, 6, 1, 1, "Now");
+  wd::render(12, 22, 1, 10, "Ground");
+  wd::render(9, 16, 7, 1, "Nexts");
+  wd::render(8, 4, 19, 22, "Info");
+  wd::render(8, 18, 1, 22, "Other");
 }
 
 void updateFrame() {
